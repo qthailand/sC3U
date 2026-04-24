@@ -209,26 +209,6 @@ sC3U/
     └── client.py            # MotionCLI — interactive REPL สำหรับ command line
 ```
 
----
-
-## สถาปัตยกรรม Thread
-
-```
-Main Thread (Qt GUI)
- ├── MainWindow         — pure UI, ส่ง/รับ signals
- └── SerialController   — business logic bridge
-       ├── PortScannerThread  — one-shot scan comports
-       ├── ReaderThread       — poll RX ต่อเนื่อง → emit terminal_output
-       └── WriterThread       — queue-based TX
-```
-
-- **MainWindow** และ **SerialController** อยู่บน main thread (Qt GUI thread)
-- **ReaderThread** อ่านข้อมูลจาก serial port ต่อเนื่อง และ emit signal กลับไปที่ UI
-- **WriterThread** รับ bytes จาก TX queue แล้วเขียนลง serial port
-- **PortScannerThread** สแกนหา COM port แบบ non-blocking
-
----
-
 ## Error Codes
 
 | Code | ความหมาย |
