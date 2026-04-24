@@ -1,0 +1,85 @@
+13:58:12  [INFO    ]  Controller — Controller initialized.
+13:59:51  [INFO    ]  Controller — Controller initialized.
+14:11:16  [INFO    ]  Controller — Controller initialized.
+14:45:05  [INFO    ]  Controller — Controller initialized.
+14:45:05  [INFO    ]  Controller — Connect requested: None
+14:45:05  [ERROR   ]  Controller — Cannot open '': could not open port '': FileNotFoundError(2, 'The system cannot find the path specified.', None, 3)
+14:45:10  [INFO    ]  Controller — Disconnect requested.
+14:45:20  [INFO    ]  Controller — Controller initialized.
+14:45:20  [INFO    ]  Controller — Connect requested: None
+14:45:20  [ERROR   ]  Controller — Cannot open '': could not open port '': FileNotFoundError(2, 'The system cannot find the path specified.', None, 3)
+14:45:25  [INFO    ]  Controller — Disconnect requested.
+14:45:27  [INFO    ]  Controller — Controller initialized.
+14:45:27  [INFO    ]  Controller — Connect requested: None
+14:45:27  [ERROR   ]  Controller — Cannot open '': could not open port '': FileNotFoundError(2, 'The system cannot find the path specified.', None, 3)
+14:45:32  [INFO    ]  Controller — Disconnect requested.
+16:00:31  [INFO    ]  Controller — Controller initialized.
+16:00:31  [INFO    ]  Controller — Connect requested: None
+16:00:31  [ERROR   ]  Controller — Cannot open serial port: port is not configured.
+16:00:36  [INFO    ]  Controller — Disconnect requested.
+16:00:42  [INFO    ]  Controller — Controller initialized.
+16:00:42  [INFO    ]  Controller — Connect requested: None
+16:00:42  [ERROR   ]  Controller — Cannot open serial port: port is not configured.
+16:00:47  [INFO    ]  Controller — Disconnect requested.
+16:00:47  [INFO    ]  Controller — Controller initialized.
+16:00:47  [INFO    ]  Controller — Connect requested: None
+16:00:47  [ERROR   ]  Controller — Cannot open serial port: port is not configured.
+16:00:52  [INFO    ]  Controller — Disconnect requested.
+16:01:07  [INFO    ]  Controller — Controller initialized.
+16:02:09  [INFO    ]  Controller — Controller initialized.
+16:02:09  [INFO    ]  Controller — Port scan requested.
+16:02:09  [DEBUG   ]  Thread.PortScanner — [Scanner] Scanning serial ports…
+16:02:09  [INFO    ]  Thread.PortScanner — [Scanner] Found 1 CH340 port(s): COM6
+16:08:53  [INFO    ]  Controller — Controller initialized.
+16:08:53  [INFO    ]  Controller — Port scan requested.
+16:08:53  [DEBUG   ]  Thread.PortScanner — [Scanner] Scanning serial ports…
+16:08:53  [INFO    ]  Thread.PortScanner — [Scanner] Found 1 CH340 port(s): COM6
+16:12:22  [INFO    ]  Controller — Controller initialized.
+16:12:22  [INFO    ]  Controller — Port scan requested.
+16:12:22  [DEBUG   ]  Thread.PortScanner — [Scanner] Scanning serial ports…
+16:12:22  [INFO    ]  Thread.PortScanner — [Scanner] Found 1 CH340 port(s): COM6
+16:12:25  [WARNING ]  Controller — Send requested but writer thread is not running.
+16:12:30  [INFO    ]  Controller — Connect requested: {'port': 'COM6', 'baudrate': 9600, 'bytesize': 8, 'parity': 'None', 'stopbits': '1'}
+16:12:30  [INFO    ]  Controller — Port 'COM6' opened OK with baud=9600, bytesize=8, parity=N, stopbits=1.0
+16:12:30  [DEBUG   ]  Controller — ReaderThread started (id=18860)
+16:12:30  [DEBUG   ]  Thread.Reader — [Reader] Started — port=COM6, tid=17432
+16:12:30  [DEBUG   ]  Controller — WriterThread started (id=18860)
+16:12:30  [DEBUG   ]  Thread.Writer — [Writer] Started — port=COM6, tid=18344
+16:12:30  [DEBUG   ]  Thread.Writer — [Writer] Enqueue 3 bytes: b'?R\r'
+16:12:30  [INFO    ]  Controller — Enqueued 3 bytes to writer: b'?R\r'
+16:12:30  [DEBUG   ]  Thread.Writer — [Writer] Sent 3 bytes: b'?R\r'
+16:12:30  [DEBUG   ]  Thread.Reader — [Reader] RX 3 bytes: b'?R\r'
+16:12:30  [DEBUG   ]  Thread.Reader — [Reader] RX 3 bytes: b'OK\n'
+16:12:31  [DEBUG   ]  Thread.Writer — [Writer] Enqueue 6 bytes: b'X+267\r'
+16:12:31  [INFO    ]  Controller — Enqueued 6 bytes to writer: b'X+267\r'
+16:12:31  [DEBUG   ]  Thread.Writer — [Writer] Sent 6 bytes: b'X+267\r'
+16:12:31  [DEBUG   ]  Thread.Reader — [Reader] RX 6 bytes: b'X+267\r'
+16:12:32  [DEBUG   ]  Thread.Reader — [Reader] RX 3 bytes: b'OK\n'
+16:12:36  [DEBUG   ]  Thread.Writer — [Writer] Enqueue 6 bytes: b'X-267\r'
+16:12:36  [INFO    ]  Controller — Enqueued 6 bytes to writer: b'X-267\r'
+16:12:36  [DEBUG   ]  Thread.Writer — [Writer] Sent 6 bytes: b'X-267\r'
+16:12:36  [DEBUG   ]  Thread.Reader — [Reader] RX 6 bytes: b'X-267\r'
+16:12:36  [DEBUG   ]  Thread.Reader — [Reader] RX 3 bytes: b'OK\n'
+16:12:41  [DEBUG   ]  Thread.Writer — [Writer] Enqueue 3 bytes: b'?V\r'
+16:12:41  [INFO    ]  Controller — Enqueued 3 bytes to writer: b'?V\r'
+16:12:41  [DEBUG   ]  Thread.Writer — [Writer] Sent 3 bytes: b'?V\r'
+16:12:41  [DEBUG   ]  Thread.Reader — [Reader] RX 3 bytes: b'?V\r'
+16:12:41  [DEBUG   ]  Thread.Reader — [Reader] RX 4 bytes: b'V30\n'
+16:12:57  [DEBUG   ]  Thread.Writer — [Writer] Enqueue 4 bytes: b'HX0\r'
+16:12:57  [INFO    ]  Controller — Enqueued 4 bytes to writer: b'HX0\r'
+16:12:57  [DEBUG   ]  Thread.Writer — [Writer] Sent 4 bytes: b'HX0\r'
+16:12:57  [DEBUG   ]  Thread.Reader — [Reader] RX 4 bytes: b'HX0\r'
+16:13:02  [DEBUG   ]  Thread.Writer — [Writer] Enqueue 2 bytes: b'S\r'
+16:13:02  [INFO    ]  Controller — Enqueued 2 bytes to writer: b'S\r'
+16:13:02  [DEBUG   ]  Thread.Writer — [Writer] Sent 2 bytes: b'S\r'
+16:13:02  [DEBUG   ]  Thread.Reader — [Reader] RX 7 bytes: b'OK\n\rOK\n'
+16:13:04  [INFO    ]  Controller — Disconnect requested.
+16:13:04  [DEBUG   ]  Controller — Stopping ReaderThread…
+16:13:04  [DEBUG   ]  Thread.Reader — [Reader] stop() called.
+16:13:04  [DEBUG   ]  Thread.Reader — [Reader] Thread exiting.
+16:13:04  [DEBUG   ]  Controller — Stopping WriterThread…
+16:13:04  [DEBUG   ]  Thread.Writer — [Writer] stop() called.
+16:13:04  [DEBUG   ]  Thread.Writer — [Writer] Sent 0 bytes: b''
+16:13:04  [DEBUG   ]  Thread.Writer — [Writer] Thread exiting.
+16:13:04  [INFO    ]  Controller — Port 'COM6' closed.
+16:13:05  [INFO    ]  Controller — Controller shutdown.

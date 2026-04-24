@@ -1,0 +1,14 @@
+{
+  "port": "COM6",
+  "baudrate": 9600,
+  "bytesize": 8,
+  "parity": "N",
+  "stopbits": 1.0,
+  "timeout": 0.2,
+  "stage": {
+    "pitch": 0.75,
+    "subdivision": 1,
+    "microstep": 8,
+    "stepper_angle": 1.8
+  }
+}
