@@ -1,7 +1,7 @@
 # sC3U — Serial Motion Controller Utility
 
 โปรแกรมสำหรับควบคุม Motion Controller ผ่าน Serial Port (CH340/CH341)  
-รองรับทั้งโหมด **GUI (PyQt5)** และ **Command-Line Interface (CLI)**
+รองรับทั้งโหมด **GUI (PyQt5)** และ **Command-Line Interface (CLI)** รวมทั้ง **สามารถใช้ SC3U ได้โดยตรง**
 
 ---
 
@@ -23,7 +23,7 @@
 ## ความต้องการของระบบ
 
 - Python 3.10+
-- อุปกรณ์เชื่อมต่อผ่าน CH340 หรือ CH341 USB-to-Serial
+- รองรับอุปกรณ์ **Motion Controllers** ของ **OPTIC FOCUS** เชื่อมต่อผ่าน CH340 หรือ CH341 USB-to-Serial 
 
 ---
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 dependencies:
 - `pyserial >= 3.5`
-- `PyQt5 >= 5.15` (ต้องการเฉพาะ GUI mode)
+- `PyQt5 >= 5.15` **(ต้องการเฉพาะ GUI mode)**
 
 ---
 
